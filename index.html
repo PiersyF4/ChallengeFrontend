@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body style="display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+        <div style="text-align: center;">
+            <h1>Benvenuto su Sprutifai!</h1>
+            <form>
+                <input placeholder="Nome" type="text" id="name" name="name" required style="width: 60%;"><br>
+                <input placeholder="Cognome" type="text" id="surname" name="surname" required style="width: 60%;"><br>
+                <input placeholder="E-Mail" type="email" id="email" name="email" required style="width: 60%;"><br>
+                <input placeholder="Password" type="password" id="password" name="password" required style="width: 60%;"><br>
+                <input type="date" id="dob" name="dob" required style="width: 60%;"><br>
+                <input placeholder="Telefono" type="tel" id="phone" name="phone" style="width: 60%;"><br>
+                <input placeholder="Indirizzo" type="text" id="address" name="address" style="width: 60%;"><br><br>
+
+                <fieldset style="text-align: left; width: 75%; margin: auto;">
+                    <legend>Seleziona le tue preferenze musicali:</legend><br>
+                    <label><input type="checkbox" name="preference" value="pop"> Pop</label><br>
+                    <label><input type="checkbox" name="preference" value="rock"> Rock</label><br>
+                    <label><input type="checkbox" name="preference" value="hiphop"> Hip-Hop</label><br>
+                    <label><input type="checkbox" name="preference" value="jazz"> Jazz</label><br>
+                    <label><input type="checkbox" name="preference" value="classical"> Classical</label><br>
+                    <label><input type="checkbox" name="preference" value="edm"> EDM</label><br>
+                    <label><input type="checkbox" name="preference" value="reggae"> Reggae</label><br>
+                    <label><input type="checkbox" name="preference" value="country"> Country</label><br>
+                    <label><input type="checkbox" name="preference" value="latin"> Latin</label><br>
+                    <label><input type="checkbox" name="preference" value="rnb"> R&B</label><br>
+                    <label><input type="checkbox" name="preference" value="false" checked> Nessuna tra queste</label><br>
+                </fieldset><br>
+
+                <label>
+                    <input type="radio" id="terms" name="terms" required>
+                    Accetto i termini e le condizioni
+                </label><br><br>
+
+                <button type="button" onclick="alert('Registrazione inviata!')">Invia registrazione</button>
+            </form>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
